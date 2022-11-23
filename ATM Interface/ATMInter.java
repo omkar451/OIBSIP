@@ -26,7 +26,7 @@ class BankAcc
 		{
 			flag++;
 			System.out.println("\tLogin unsuccessful!\n\tTry Again!");
-			if(flag<3)
+			if(flag<=2)
 			{
 				login();
 			}
